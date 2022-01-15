@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <title>Abschlussprüfung</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Unna&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        display: inline-block;
+        font: 20px "Montserrat", sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+        font-weight: 500;
+    }
+
+p {
+  font-size: 16px;
+}
+button{
+  color: black;
+}
+textarea{
+  color: black;
+}
+  .margin {
+        margin-bottom: 45px;
+      }
+
+      .bg-1 {
+        background-color: #1abc9c;
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .bg-2 {
+      background-color: #2f2f2f;
+      color: #ffffff;
+    }
+      .container-fluid {
+        padding-top: : 20px;
+        padding-bottom: 70px;
+      }
+
+      .navbar {
+        padding-top: : 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+      }
+
+      .navbar-nav li a:hover {
+        background-color: red;
+      }
+
+      table, th, td {
+        border: 0.5px solid black;
+        text-align: justify;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar Section-->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand glyphicon glyphicon-home"  href="home.html"> Home </a>
+        </div>
+        <div class=" collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right text-right">
+              <li><a href="abitur.html"> بكالوريا</a></li>
+              <li><a href="https://www.youtube.com/watch?v=fNbBkVe5eNY&list=PLOojC9cDjLdXvXDHHpl6QxCS-0Ql1bX0Q"> تاسع</a></li>
+              <li><a href="https://www.youtube.com/watch?v=J4_qBP-yP5o&list=PLOojC9cDjLdVQnMrtlWSLpJyF0L3fgUfT">قواعد انكليزي </a></li>
+              <li><a href="https://www.youtube.com/watch?v=Zr8KZj3o09I&list=PLOojC9cDjLdWxIJKLBwd2hYk12EdmVLg2"> تعلم المحادثة معي</a></li>
+              <li><a href="https://www.youtube.com/watch?v=ncKRByTBwu0&list=PLOojC9cDjLdXvZJ5wy_k4LDmXmdnUKu9i"> اعمالي </a></li>
+              <li><a href="https://www.youtube.com/watch?v=VNZiEqb6wDA&list=PLOojC9cDjLdVnlt-NBQbZokaxwb5TGD_Q">فيديوهات مفيدة </a></li>
+            </ul>
+        </div>
+      </div>
+  </nav>
+
+<!-- Navbar Section-->
+<div class="container-fluid bg-1 text-left">
+<div class="section">
+
+  <table>
+  <tr>
+    <th><p>Die Handlungsschritte 1 bis 5 beziehen sich auf die folgende Ausganqssituation:<p> Sie sind MitarbeiterAin der Systemhaus GmbH.<p>
+Die Systemhaus GmbH wurde von der Sportsfit AG mit der Programmierung einer Vereinsverwaltungs-Software beauftragt.<p> Sie arbeiten in diesem Projekt mit.<p>
+Sie sollen im Rahmen des Projekts vier der folgenden fünf Aufgaben erledigen:<p>
+1. Ein Teilprojekt planen<p>
+2. Eine Methode programmieren (prozedurale Programmierung)<p>
+3.  Für die objektorientierte Entwicklung einer Geräte-Steuerung UML-Diagramme erstellen<p>
+4.  Ein Datenbankmodell in der dritten Normalform entwickeln<p>
+5. Für eine bestehende Datenbank mehrere SQL-Anweisungen erstellen</th>
+    </tr>
+</table>
+
+</div>
+
+<div class="section1">
+  <p>1, Handlungsschritt (25 Punkte)<p>
+Sie sind an der Planung eines Teilprojekts beteiligt.<p>
+a) Für das Teilprojekt liegen ein Lastenheft und ein Pflichtenheft vor.<p>
+Beschreiben Sie in folgender Tabelle Lastenheft und Pflichtenheft.<p>
+
+  <table >
+  <tr>
+    <th></th>
+    <th>Lastenheft</th>
+    <th>Pflichtenheft</th>
+  </tr>
+  <tr>
+    <td>Verfasser</td>
+    <td><textarea id="answer1" value=""  rows="8" cols="30" style="display:grid;"></textarea></p><button onclick="myFunction1()">Submit</button><p id="demo1"></p></td>
+    <td><textarea id="answer2" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction2()">Submit</button><p id="demo2"></p></td>
+  </tr>
+  <tr>
+    <td>Verwendung</td>
+    <td><textarea id="answer3" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction3()">Submit</button><p id="demo3"></p></td>
+    <td><textarea id="answer4" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction4()">Submit</button><p id="demo4"></p></td>
+  </tr>
+  <tr>
+    <td>Inhalt</td>
+    <td> <textarea id="answer5" value="" rows="8" cols="30"></textarea></p> <button onclick="myFunction5()">Submit</button><p id="demo5"></p></td>
+    <td><textarea id="answer6" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction6()">Submit</button><p id="demo6"></p></td>
+
+  </tr>
+  </table>
+
+</div>
+<div class="section2">
+  <p>b) Das Projekt soll mithilfe eines GANTT-Diagramms und eines Netzplans geplant werden.<p> ba) Nennen Sie drei Informationen, die Sie in einem GANTADiagramm darstellen können.</p>
+
+<textarea id="answer7" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction7()">Submit</button><p id="demo7"></p>
+<p>bb) Nennen Sie drei Informationen, die Sie nur einem Netzplan entnehmen können.</p>
+  <textarea id="answer8" value=""  rows="8" cols="30" ></textarea></p><button onclick="myFunction8()">Submit</button><p id="demo8"></p>
+
+</div>
+</div>
+
+
+<footer class="container-fluid bg-2 text-center padding-top= " 20px"">
+  <p>This Page made by Mostafa Alomar
+  <p>اذا كانت هناك افادة رجاء دعوة لي في ظهر غيب
+</footer>
+<script>
+function myFunction1() {
+  let answer1 = document.getElementById("answer1").value;
+  let response = (answer1 == "Auftraggeber")? "Richtig": "Falsch, die richtige Antwort ist 'Auftraggeber'";
+  document.getElementById("demo1").innerHTML = response;
+}
+
+function myFunction2() {
+  let answer2 = document.getElementById("answer2").value;
+  let response = (answer2 == "Auftraggeber und Auftragnehmer")? "Richtig": "Falsch, die richtige Antwort ist 'Auftraggeber und Auftragnehmer'";
+  document.getElementById("demo2").innerHTML = response;
+}
+
+function myFunction3() {
+  let answer3 = document.getElementById("answer3").value;
+  let response = (answer3 == "Bestandteil der Anfrage")? "Richtig": "Falsch, die richtige Antwort ist 'Bestandteil der Anfrage'";
+  document.getElementById("demo3").innerHTML = response;
+}
+
+function myFunction4() {
+  let answer4 = document.getElementById("answer4").value;
+  let response = (answer4 == "Bestandteil des Kauf-/Werkvertrags")? "Richtig": "Falsch, die richtige Antwort ist 'Bestandteil des Kauf-/Werkvertrags'";
+  document.getElementById("demo4").innerHTML = response;
+}
+
+function myFunction5() {
+  let answer5 = document.getElementById("answer5").value;
+  let response = (answer5 == "Gesamtheit der Forderungen des Auftraggebers an die Lieferungen und Leistungen eines Auftragnehmers")? "Richtig": "Falsch, die richtige Antwort ist 'Gesamtheit der Forderungen des Auftraggebers an die Lieferungen und Leistungen eines Auftragnehmers'";
+  document.getElementById("demo5").innerHTML = response;
+}
+
+function myFunction6() {
+  let answer6 = document.getElementById("answer6").value;
+  let response = (answer6 == "Realisierungsvorgaben aufgrund des Lastenhefts")? "Richtig": "Falsch, die richtige Antwort ist 'Realisierungsvorgaben aufgrund des Lastenhefts'";
+  document.getElementById("demo6").innerHTML = response;
+}
+
+function myFunction7() {
+  let answer7 = document.getElementById("answer7").value;
+  let response = (answer7 == "Alle Vorgänge eines Projekts,Start und Endzeitpunkt je Vorgang,Dauer eines Vorgangs,Überschneidungen von Vorgängen und Dauer der Überschneidungen,Start und Enddatum eines Projekts")? "Richtig": "Falsch, die richtige Antwort ist 'Alle Vorgänge eines Projekts,Start und Endzeitpunkt je Vorgang,Dauer eines Vorgangs,Überschneidungen von Vorgängen und Dauer der Überschneidungen,Start und Enddatum eines Projekts'";
+  document.getElementById("demo7").innerHTML = response;
+}
+
+function myFunction8() {
+  let answer8 = document.getElementById("answer8").value;
+  let response = (answer8 == "Logische und zeitliche Abhängigkeiten der Vorgänge, Frühester und spätester Start- und Endzeitpunkt eines Vorgangs, Zeitreserven (Puffer), Zeitlicher Engpass (Kritischer Pfad)")? "Richtig": "Falsch, die richtige Antwort ist 'Logische und zeitliche Abhängigkeiten der Vorgänge, Frühester und spätester Start- und Endzeitpunkt eines Vorgangs, Zeitreserven (Puffer), Zeitlicher Engpass (Kritischer Pfad)'";
+  document.getElementById("demo8").innerHTML = response;
+}
+</script>
+
+  </body>
+</html>
